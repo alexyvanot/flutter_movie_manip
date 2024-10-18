@@ -1,5 +1,10 @@
 # flutter_movie_manip
 
+<div align="center">
+    <img src="assets/images/HomePage.png" alt="Home Page" width="300" />
+    <img src="assets/images/MovieDetail.png" alt="Movie Detail" width="300" />
+</div>
+
 Bienvenue dans le projet **Flutter Movie Manip** ! Ce projet a pour but d'explorer les concepts clés de Flutter tout en construisant une application qui récupère les films à venir à partir de l'API [The Movie Database (TMDb)](https://www.themoviedb.org/).
 
 ## Objectifs pédagogiques
