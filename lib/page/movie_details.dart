@@ -11,10 +11,9 @@ class MovieDetail extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: Text(movie.title),
-      ), // AppBar
+      ),
       body: SingleChildScrollView(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Image.network(movie.posterPath),
             Padding(
@@ -25,8 +24,8 @@ class MovieDetail extends StatelessWidget {
               ),
             ),
           ],
-        ), // Column
-      ), // SingleChildScrollView
-    ); // Scaffold
+        ),
+      ),
+    );
   }
 }
